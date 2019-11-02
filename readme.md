@@ -1,20 +1,13 @@
-# My Custom Module
+# Brightleaf Stencil
 
-```
-- .assets
--- extend.css
--- head.html
--- foot.html
-- .circleci
--- config.yml
-- src
--- index.js
--- __tests__
---- index.test.js
-- .eslintrc.json
-- .gitignore
-- package.json
-- readme.md
+```bash
+npm install @brightleaf/stencil -g
+
+stencil
+
+stencil component login-form
+
+stencil routes user
 
 ```
 
