@@ -1,5 +1,5 @@
 {
-  "test": "isom test",
+  "test": "node ./bin/stencil.js",
   "lint": "isom lint",
   "watch": "isom watch",
   "preversion": "npm test",
