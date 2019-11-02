@@ -5,6 +5,9 @@
   "scripts": {
     "test": "isom test"
   },
+  "bin": {
+    "stencil": "./bin/stencil.js"
+  },
   "license": "MIT",
   "devDependencies": {
     "@kev_nz/eslint-config": "^5.0.0",
@@ -14,6 +17,9 @@
     "jest": "^24.9.0"
   },
   "dependencies": {
+    "commander": "^4.0.0",
+    "inquirer": "^7.0.0",
+    "pluralize": "^8.0.0",
     "to-case": "^2.0.0"
   }
 }
