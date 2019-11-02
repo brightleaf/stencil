@@ -1,7 +1,19 @@
 {
-  "name": "stencil",
+  "name": "@brightleaf/stencil",
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
-    "test": "echo \"This is a placeholder\" && exit 0"
+    "test": "isom test"
   },
-  "version": "1.0.0"
+  "license": "MIT",
+  "devDependencies": {
+    "@kev_nz/eslint-config": "^5.0.0",
+    "@kev_nz/publisher": "^4.0.1",
+    "eslint": "^6.6.0",
+    "isom": "^1.0.0",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "to-case": "^2.0.0"
+  }
 }
